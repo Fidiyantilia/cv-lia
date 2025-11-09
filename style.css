@@ -1,0 +1,139 @@
+/* === GLOBAL === */
+body {
+  font-family: "Poppins", sans-serif;
+  background: #def6f3;
+  margin: 0;
+  padding: 40px 10px;
+  color: #333;
+}
+
+cv-wrapper, .cv-wrapper {
+  max-width: 1000px;
+  background: #ffffff;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  box-shadow: 0 5px 35px rgba(0,0,0,0.12);
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+/* === SIDEBAR === */
+.sidebar {
+  background: #2fb6a2;
+  color: #fff;
+  padding: 40px 28px;
+}
+
+.photo-box img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.name {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 5px 0 3px;
+}
+
+.role {
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.95;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 65%;
+  height: 2px;
+  background: #ffffff60;
+  margin: 22px auto;
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.contact-item {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.skills {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.skills li {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* === MAIN CONTENT === */
+.content {
+  padding: 45px 40px;
+}
+
+.block {
+  margin-bottom: 35px;
+}
+
+.block h3 {
+  color: #2fae9e;
+  border-left: 5px solid #2fae9e;
+  padding-left: 12px;
+  margin-bottom: 15px;
+}
+
+.justify {
+  text-align: justify;
+  line-height: 1.65;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+.item-title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.item-sub {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.list li {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .cv-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    padding: 25px;
+  }
+}
+
+
